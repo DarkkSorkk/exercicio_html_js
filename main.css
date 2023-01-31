@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    animation: animatedbg 20s linear infinite;
+  }
+  
+  @keyframes animatedbg {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: lightblue;
+  margin-bottom: 20px;
+  animation: animatedtext 2s ease-in-out infinite;
+}
+
+@keyframes animatedtext {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: lightblue;
+    margin-bottom: 20px;
+    animation: animatedtext 2s ease-in-out infinite;
+  }
+  
+  @keyframes animatedtext {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+  #myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #input1, #input2 {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  button[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: blue;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: lightblue;
+    margin-bottom: 20px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  h1:hover {
+    color: blue;
+  }
+  
+
+  body {
+    background-image: url('https://www.clinicaludens.com.br/wp-content/uploads/2018/08/pai-filho-empreender.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  
